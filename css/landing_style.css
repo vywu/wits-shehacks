@@ -1,0 +1,12 @@
+.landing {
+	 -webkit-animation: fadein 2s; /* Safari, Chrome and Opera > 12.1 */
+       -moz-animation: fadein 2s; /* Firefox < 16 */
+        -ms-animation: fadein 2s; /* Internet Explorer */
+         -o-animation: fadein 2s; /* Opera < 12.1 */
+            animation: fadein 2s;
+}
+
+@font-face{
+  font-family: 'Asimov-Dist';
+  src:url(../assets/fonts/Asimov/AsimovDist.otf);
+}
