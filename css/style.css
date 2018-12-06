@@ -61,6 +61,20 @@ a:hover {
   border: 0px solid #fff;
 }
 
+.spons{
+  display:inline-block;
+  margin:50px;
+  text-align: center;
+}
+.spon{
+  height:100px;
+  margin-left:30px;
+  margin-right:30px;
+  margin-top:20px;
+}
+#sponsors a{
+  justify-content: center;
+}
 
 /*
  * Base structure
