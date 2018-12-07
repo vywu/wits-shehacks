@@ -1,12 +1,104 @@
-.landing {
-	 -webkit-animation: fadein 2s; /* Safari, Chrome and Opera > 12.1 */
-       -moz-animation: fadein 2s; /* Firefox < 16 */
-        -ms-animation: fadein 2s; /* Internet Explorer */
-         -o-animation: fadein 2s; /* Opera < 12.1 */
-            animation: fadein 2s;
+html,body{
+    margin:0;
+    height:100%;
+    padding:30px;
+    text-align: center;
+    overflow: hidden;
+}
+img{
+  display:block;
+  width:90%; height:90%;
+  object-fit: cover;
 }
 
-@font-face{
-  font-family: 'Asimov-Dist';
-  src:url(../assets/fonts/Asimov/AsimovDist.otf);
+.landing {
+	 animation: fadein 2s;
+    -moz-animation: fadein 2s; /* Firefox */
+    -webkit-animation: fadein 2s; /* Safari and Chrome */
+    -o-animation: fadein 2s; /* Opera */
+}
+@keyframes fadein {
+    from {
+        opacity:0;
+    }
+    to {
+        opacity:1;
+    }
+}
+@-moz-keyframes fadein { /* Firefox */
+    from {
+        opacity:0;
+    }
+    to {
+        opacity:1;
+    }
+}
+@-webkit-keyframes fadein { /* Safari and Chrome */
+    from {
+        opacity:0;
+    }
+    to {
+        opacity:1;
+    }
+}
+@-o-keyframes fadein { /* Opera */
+    from {
+        opacity:0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+div {
+  position: absolute;
+  top: 50%;
+  left: 90%;
+  transform: translate(-50%, -50%);
+}
+div svg {
+  width: 100px;
+  height: auto;
+  margin: 0 2rem;
+  cursor: pointer;
+  overflow: visible;
+}
+div svg polygon, div svg path {
+  fill: white;
+  transition: all 0.5s cubic-bezier(0.2, 1, 0.3, 1);
+}
+div svg:hover polygon, div svg:hover path {
+  transition: all 1s cubic-bezier(0.2, 1, 0.3, 1);
+  fill: #CE6767;
+}
+div svg:hover .arrow {
+  animation: arrow-anim 2.5s cubic-bezier(0.2, 1, 0.3, 1) infinite;
+}
+div svg:hover .arrow-fixed {
+  animation: arrow-fixed-anim 2.5s cubic-bezier(0.2, 1, 0.3, 1) infinite;
+}
+
+@keyframes arrow-anim {
+  0% {
+    opacity: 1;
+    transform: translateX(0);
+  }
+  5% {
+    transform: translateX(-0.1rem);
+  }
+  100% {
+    transform: translateX(1rem);
+    opacity: 0;
+  }
+}
+@keyframes arrow-fixed-anim {
+  5% {
+    opacity: 0;
+  }
+  20% {
+    opacity: 0.4;
+  }
+  100% {
+    opacity: 1;
+  }
 }

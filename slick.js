@@ -1,8 +1,9 @@
 $(document).ready(function(){
-	console.log("!!!");
-      $('.gallery').slick({
-        infinite: true,
-  		slidesToShow: 3,
-  		slidesToScroll: 3
-      });
-    });
+	console.log("!!!!!");
+  $('.gallery').slick({
+    slidesToShow:1,
+    dots:true,
+    arrows:true,
+    draggable:true
+  });
+});  

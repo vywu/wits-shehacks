@@ -1,0 +1,546 @@
+<!-- <link href="//netdna.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css"> -->
+<html>
+<head>
+<link href="./css/style.css" rel="stylesheet" id="bootstrap-css">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
+<link rel="stylesheet" type="text/css" href="./slick/slick.css"/>
+<link rel="stylesheet" type="text/css" href="slick/slick-theme.css"/>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script>
+<script type="text/javascript" src="./script.js"></script>
+<!--the slick thing-->
+
+<link href="https://fonts.googleapis.com/css?family=Josefin+Sans" rel="stylesheet">
+</head>
+<!------ Include the above in your HEAD tag ---------->
+<body>
+    <div class="masthead clearfix" style="background:#CE6767; display:block">
+      
+      <a href=""><img class="masthead-brand" src="./assets/images/shehacks_logo_white.png" style="margin-top: 0px;width: 200px"></img></a>
+
+      <nav style="margin-top:30px; margin-right: 30px;" class="nav masthead-nav justify-content-end navbar-fixed-top">
+          <div class="nav nav-tabs justify-content-end" style="border-bottom: 0px" id="nav-tab" role="tablist" >
+	   	 		<a class="nav-item nav-link active" id="nav-home-tab" data-toggle="tab" href="#nav-home" role="tab" aria-controls="nav-home" aria-selected="true" style = "" onclick="chColor('#CE6767');" onmouseover="chBorderColor('#CE6767','nav-home-tab')">About WITS</a>
+	    		<a class="nav-item nav-link" id="nav-shehacks-tab" data-toggle="tab" href="#nav-shehacks" role="tab" aria-controls="nav-shehacks" aria-selected="false" style = "background: #FFD7C6" onclick="chColor('#FFD7C6');" onmouseover="chBorderColor('#CE6767','nav-shehacks-tab')">SheHacks</a>
+	    		<a class="nav-item nav-link" id="nav-events-tab" data-toggle="tab" href="#nav-events" role="tab" aria-controls="nav-events" aria-selected="false" style = "background: #292E4F" onclick="chColor('#292E4F');">Events</a>
+	    		<a class="nav-item nav-link" id="nav-women-tab" data-toggle="tab" href="#nav-women" role="tab" aria-controls="nav-women" aria-selected="false" style = "background: #FABC3C" onclick="chColor('#FABC3C');">Women@Tech</a>
+	    		<a class="nav-item nav-link" id="nav-subscribe-tab" data-toggle="tab" href="#nav-subscribe" role="tab" aria-controls="nav-subscribe" aria-selected="false" style = "background: #7690E8"  onclick="chColor('#7690E8');">Stay in touch</a>
+  			</div>
+		  </nav>
+    </div>
+
+    <div class="site-wrapper" style="background: #CE6767; display:block;padding-top: 30px">
+      <div class="tab-content" id="nav-tabContent">
+  		<div class="tab-pane fade show active" id="nav-home" role="tabpanel" aria-labelledby="nav-home-tab">
+        <div class="wrapper" style = "display:table;">
+          <div class = "row-wrapper" style = "display:table-row; ">
+        <div class="box sidebar align-top" style = "display: table-cell;">
+  		    <img src="./assets/images/mission_statement_asset.png" style = "width: 400px; margin-top: 50px; margin-left: 60px; margin-right: 60px;">
+        </div>
+  		  <div id="mission" class="align-top" style = "display:table-cell; padding: 30px;margin:30px; margin-top:-100px; text-align: left;" class="box">
+
+				<p style = "font-size: 60px; text-align: left; padding-left:60px; padding-right: 20px; letter-spacing: -2px; line-height:60px ">building a future <br> for women* in tech <br>      <label style = "background: #FABC3C; color:transparent;padding:0px;line-height: 20px; margin-top: 30px"> W</label> </p>
+   
+        <p style = "font-size: 30px; text-align: left; padding-left:60px; padding-right: 20px; letter-spacing: 0px; line-height:30px; margin-top: 30px "> Our purpose is to build a pipeline for women to enter and succeed within the tech industry. 
+            At WITS, we aim to increase gender diversity and inclusion in the tech industry by creating a supportive and empowering community for women* interested in tech.</p>
+        <p style = "font-size: 15px; padding-left:60px;">*Any female-identifying, non-binary individual. WITS welcomes all genders and backgrounds to events with the exception of SheHacks, our only non cis-men only event.</p>
+
+        </p>
+  			</div>
+      </div>
+    </div>
+        <div class = "wrapper" id ="pillars" style = "display: table; padding:70px; margin-top:30px">
+          <h1 style = "text-align: left">WITS's three pillars</h1>
+          <h2 style = "text-align: left">Here's what we believe in:</h2>
+          <div class="row-wrapper" style="display:table-row; text-align: left;">
+          <div style = "display:table-cell; padding:20px">
+                    <h1>empowering women</h2> <label style = "background: #FABC3C; color:transparent;padding:0px;line-height: 20px; margin-top: 0px"> WITS</label>
+                    <p style = "font-size: 25px;">We empower forward-thinking women to rapidly learn, test new skills, and gain valuable experiences through our events. 
+                    </p>
+          </div>
+          <div style = "display:table-cell;text-align: left; padding:20px">
+            <h1>building networks </h2> <label style = "background: #FABC3C; color:transparent;padding:0px;line-height: 20px; margin-top: 0px"> WITS</label>
+            <p style = "font-size: 25px; ">Our inclusive community allows women to share wisdom and key industry insights with each other.
+            </p>
+          </div>
+          <div style = "display:table-cell;padding:20px">
+            <h1>creating pipelines</h2> <label style = "background: #FABC3C; color:transparent;padding:0px;line-height: 20px; margin-top: 0px"> WITS</label>
+            <p style = "font-size: 25px;">We equip women with resources, opportunities, and mentors to achieve success, levelling the playing field for all future women+ to come.
+            </p>
+          </div>
+        </div>
+      </div>
+
+
+      <div class = "wrapper" id ="impact" style = "display: table; margin-top:30px">
+        <div class="row-wrapper" style="display:table-row; padding-left: 200px;padding-right: 200px">
+          <p style="font-size: 25px; text-align:left;padding-left: 200px;padding-right: 200px">
+        More than just another club on campus, WITS is a network of innovative women, providing members access to informative panels, educationals, workshops, inspirational speakers and SheHacks, the largest all-women’s Hackathon in Southwestern Ontario. </p>
+        </div>
+        <div class="row-wrapper" style="display:table-row">
+          <img src="./assets/images/stats.png" style = "width: 60%; margin-top: 50px;">
+        </div>
+
+      </div>
+
+      <div class = "wrapper" id ="team" style = "display: table; margin-top:150px; padding-left: 60px; padding-right: 60px">
+        <div class="row-wrapper" style="display:table-row">
+          <h1 style = "text-align: left">meet the team</h1>
+          <h2 style = "text-align: left; font-size: 20px">Our team driven individuals from across different fields. Together, we support change in the industry. </h2>
+        </div>
+        <div class = "wrapper" style = "display: table;">
+        <div class="row-wrapper" style="display:table-row; margin-top: 60px">
+          <div class = "headshots" style = "display: table-cell;">
+            <a href = "https://www.linkedin.com/in/amy-xu-aa5ab012b/" ><img src = "./assets/images/amy.png" class = "headshot_pics"></a>
+            <div class = "description">
+              <p>AMY XU</p>
+              <p>Co-President</p>
+            </div>
+          </div>
+          <div class = "headshots" style = "display: table-cell;">
+            <a href = "https://www.linkedin.com/in/marissajliu/" ><img src = "./assets/images/marissa.png" class = "headshot_pics"></a>
+            <div class = "description">
+            <p>MARISSA LIU</p>
+            <p>Co-President</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      </div>
+
+      <div class = "wrapper" id ="team" style = "display: table; margin-top:30px; padding-left: 60px; padding-right: 60px">
+        <div class="row-wrapper" style="display:table-row; margin-top: 60px">
+          <div class = "headshots" style = "display: table-cell;">
+            <a href = "https://www.linkedin.com/in/joyling/" ><img src = "./assets/images/joy.png" class = "headshot_pics"></a>
+            <div class = "description">
+              <p>JOY LING</p>
+              <p>Chief Returning Officer</p>
+            </div>
+          </div>
+          <div class = "headshots" style = "display: table-cell;">
+             <a href = "https://www.linkedin.com/in/mchenco/" ><img src = "./assets/images/michelle.png" class = "headshot_pics"></a>
+            <div class = "description">
+            <p>MICHELLE CHEN</p>
+            <p>Chair of the Board</p>
+            </div>
+          </div>
+          <div class = "headshots" style = "display: table-cell;">
+             <a href = "https://www.linkedin.com/in/vyw654/" ><img src = "./assets/images/vivian.png" class = "headshot_pics"></a>
+            <div class = "description">
+              <p>VIVIAN WU</p>
+              <p>Tech Advisor</p>
+            </div>
+          </div>
+
+          
+        </div>
+
+        <div class="row-wrapper" style="display:table-row; margin-top: 60px">
+          <div class = "headshots" style = "display: table-cell;">
+             <a href = "https://www.linkedin.com/in/carolzhai/" ><img src = "./assets/images/carol.png" class = "headshot_pics"></a>
+            <div class = "description">
+              <p>CAROL ZHAI</p>
+              <p>Director of Sponsorship</p>
+            </div>
+          </div>
+          <div class = "headshots" style = "display: table-cell;">
+             <a href = "https://www.linkedin.com/in/donnaxue/" ><img src = "./assets/images/donna.png" class = "headshot_pics"></a>
+            <div class = "description">
+            <p>DONNA XUE</p>
+            <p>Director of Sponsorship</p>
+            </div>
+          </div>
+          <div class = "headshots" style = "display: table-cell;">
+             <a href = "https://www.linkedin.com/in/jennayang/" ><img src = "./assets/images/jenna.png" class = "headshot_pics"></a>
+            <div class = "description">
+              <p>JENNA YANG</p>
+              <p>Director of Sponsorship</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="row-wrapper" style="display:table-row; margin-top: 60px">
+          <div class = "headshots" style = "display: table-cell;">
+            <a href = "https://www.linkedin.com/in/aranyahshanker/" ><img src = "./assets/images/aranyah.png" class = "headshot_pics"></a>
+            <div class = "description">
+              <p>ARANYAH SHANKER</p>
+              <p>Director of Operations</p>
+            </div>
+          </div>
+          <div class = "headshots" style = "display: table-cell;">
+            <a href = "https://www.linkedin.com/in/prapthiagarwala/" ><img src = "./assets/images/prapthi.png" class = "headshot_pics"></a>
+            <div class = "description">
+            <p>PRAPTHI AGARWALA</p>
+            <p>Director of Operations</p>
+            </div>
+          </div>
+          <div class = "headshots" style = "display: table-cell;">
+             <a href = "https://www.linkedin.com/in/rachellecheung/" ><img src = "./assets/images/rachelle.png" class = "headshot_pics"></a>
+            <div class = "description">
+              <p>RACHELLE CHEUNG</p>
+              <p>Director of Outreach</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="row-wrapper" style="display:table-row; margin-top: 60px">
+          <div class = "headshots" style = "display: table-cell;">
+            <a href = "https://www.linkedin.com/in/florasun01/" ><img src = "./assets/images/flora.png" class = "headshot_pics"></a>
+            <div class = "description">
+              <p>FLORA SUN</p>
+              <p>Director of Marketing</p>
+            </div>
+          </div>
+          <div class = "headshots" style = "display: table-cell;">
+            <a href = "#" ><img src = "./assets/images/tiffany.png" class = "headshot_pics"></a>
+            <div class = "description">
+            <p>TIFFANY YEP</p>
+            <p>Director of Marketing</p>
+            </div>
+          </div>
+          <div class = "headshots" style = "display: table-cell;">
+           <a href = "https://www.linkedin.com/in/arzoosethi/" ><img src = "./assets/images/arzoo.png" class = "headshot_pics"></a>
+            <div class = "description">
+              <p>ARZOO SETHI</p>
+              <p>Director of Outreach</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="row-wrapper" style="display:table-row; margin-top: 60px">
+          <div class = "headshots" style = "display: table-cell;">
+           <a href = "http://linkedin.com/in/kylie-t" ><img src = "./assets/images/kylie.png" class = "headshot_pics"></a>
+            <div class = "description">
+              <p>KYLIE TO</p>
+              <p>Director of Design</p>
+            </div>
+          </div>
+          <div class = "headshots" style = "display: table-cell;">
+            <a href = "https://www.linkedin.com/in/estelle-chung-94aa4a165/" ><img src = "./assets/images/estelle.png" class = "headshot_pics"></a>
+            <div class = "description">
+            <p>ESTELLE CHUNG</p>
+            <p>Director of Design</p>
+            </div>
+          </div>
+          <div class = "headshots" style = "display: table-cell;">
+           <a href = "https://www.linkedin.com/in/meghan-lo-ab39b214b/" ><img src = "./assets/images/meghan.png" class = "headshot_pics"></a>
+            <div class = "description">
+              <p>MEGHAN LO</p>
+              <p>Director of Design</p>
+            </div>
+          </div>
+        </div>
+
+      </div>
+
+ 
+      
+
+    </div>
+
+  		<div class="tab-pane fade" id="nav-shehacks" role="tabpanel" aria-labelledby="nav-shehacks-tab">
+        <div class="wrapper" style = "display:table;">
+          <div class = "row-wrapper" style = "display:table-row;">
+            <div class="box sidebar align-top" style = "display: table-cell;">
+              <img src="./assets/images/logo_breakdown.png" style = "width: 400px; margin-top: 50px; margin-left: 60px; margin-right: 60px;">
+            </div>
+            <div id="whatisshehacks" class="align-top" style = "display:table-cell; padding: 30px;margin:30px; margin-top:-100px; text-align: left;" class="box">
+              <p style = "font-size: 60px; color:#CE6767; text-align: left; padding-left:60px; padding-right: 20px; letter-spacing: 0px; line-height:60px ">what is SheHacks?</p>
+              <p style = "font-size: 25px; color:#292E4F; text-align: left; padding-left:60px; padding-right: 20px; line-height:30px; margin-top: 30px "> SheHacks is the <strong>largest All-Women’s Hackathon</strong> in Southwest Ontario, hosted by the Women in Technology Society at Western University. Our focus is <strong>preparing women to thrive </strong> the technology industry regardless of: gender identity, background, major, or experience. 
+              </p>
+              <p style = "font-size: 25px; color:#292E4F; line-height:30px; padding-left:60px; margin-top: 30px "> 
+              SheHacks makes technology accessible for all, attracting hundreds of diverse attendees and corporate leaders at the forefront of progress. More than just technical skills, our teams leave with genuine industry connections, a fortified sense of community, and inspiration to lead.
+              </p> 
+
+            </div>
+
+        </div>
+        <div class = "row-wrapper" style = "display:table-row;">
+          <div class = "box" style = "display: table-cell">
+            <p style = "font-size: 60px; color:#CE6767; text-align: left; padding-left:60px; padding-right: 20px; letter-spacing: 0px; line-height:60px ">“What is a hackathon?”</p>
+            <p style = "font-size: 25px; color:#292E4F; text-align: left; padding-left:60px; padding-right: 20px; line-height:30px; margin-top: 30px ">
+            A Hackathon is a coding and design marathon with a clear goal: ideate and bring to life a solution. Teams consist of 2-4 members, and have 12 hours of build time to respond to the challenge. Hackers rapidly gain exposure to ideas, skills, and possibilities. </p>
+
+          </div>
+          <div class="box sidebar align-top" style = "display: table-cell;">
+              <img src="./assets/images/shehacks1.png" style = "width: 500px; margin-top: 50px; margin-left: 60px;">
+          </div>
+
+        </div>
+
+      </div>
+
+
+
+       <div class="wrapper" style = "display:table; margin-top: 30px; text-align: center; table-layout: fixed;">
+      <div class = "row-wrapper" style = "display:table-row; padding:30px">
+        <div style = "display: table-cell;">
+          <img src = "./assets/images/tolu.png" style = "width:300px">
+        </div>
+        <div style = "display: table-cell;">
+          <img src = "./assets/images/iris.png" style = "width:300px">
+        </div>
+         <div style = "display: table-cell;">
+          <img src = "./assets/images/annie.png" style = "width:300px">
+        </div>
+      </div>
+       <div class = "row-wrapper" style = "display:table-row;">
+           <div class = "align-top" style = "display: table-cell; padding:40px;">
+             <p style = "font-size: 18px;text-align: left; color:#292E4F">
+              "SheHacks was a great opportunity to participate in <b>my first Hackathon</b>. Since I had <b>no experience coding</b>, I was <b>too intimidated</b> to join a Hackathon…. After SheHacks, I felt more <b>confident in my capabilities in tech</b> and since have been taking courses and workshops to improve my coding skills!"
+             </p>
+             <p style = "font-size: 20px;color:#CE6767; text-align: left;">Tolu Aibana</p>
+             <img src = "./assets/images/quote.png" style = "width: 200px">
+        </div>
+        <div class = "align-top" style = "display: table-cell; padding:40px;">
+             <p style = "font-size: 18px;text-align: left; color:#292E4F">
+             "SheHacks was an <b>unforgettable experience</b>. I've always been a fan of hackathons but this is <b>my first all-female one</b> and I absolutely loved working with girls of <b>all experience levels and disciplines</b>. SheHacks provides an <b>inclusive, welcoming and safe environment</b> to practice our ideas, <b>learn useful technologies</b>, and make friends. Walking away from the event with <b>a complete project</b> definitely helped with my confidence and desire to participate in more hackathons in the future."</p>
+             <p style = "font-size: 20px;color:#CE6767; text-align: left;">Iris Zhou</p>
+        </div>
+         <div class = "align-top" style = "display: table-cell; padding:40px;">
+             <p style = "font-size: 18px; text-align: left; color:#292E4F">
+              "SheHacks was such an incredible, <b>transformative</b> experience! It was so inspiring to be surrounded by <b>like-minded women with an interest in technology</b>. What really stood out to me was how inclusive the event was – every member of my team came from a <b>different educational background</b>. Over the course of the day, I attended workshops, learned new coding skills, and met a bunch of amazing people I now call my friends."
+             </p>
+             <p style = "font-size: 20px;color:#CE6767; text-align: left;">Annie Wu</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="wrapper gallery" id = "photo_gallery" style = "margin-top: 30px; text-align: center;">
+      <img src = "./assets/images/shehacks1.jpg" style = "height: 500px">
+      <img src = "./assets/images/shehacks2.jpg" style = "height: 500px">
+      <img src = "./assets/images/shehacks3.jpg" style = "height: 500px">
+      <img src = "./assets/images/shehacks4.jpg" style = "height: 500px">
+<!--       <div style = "text-align: center;"> <img src = "./assets/images/shehacks5.jpg" style = "height: 500px"></div> -->
+    </div>
+
+
+      
+    
+
+    <div class = "wrapper" style = "margin:50px">
+      <p style = "font-size: 60px; color:#CE6767; text-align: center; letter-spacing: -1px; line-height:60px ">FAQ</p>
+      <div class = "faq" style = "margin-top: 50px; ">
+      <div class = "question">
+        I don't know how to code. Can I still come?
+      </div>
+      <div class = "answer">
+        Of course! The event is designed for first-time hackers to try something new. We actively encourage people from all backgrounds, disciplines, and majors to attend! We have workshops that’ll teach you everything you need to know. Just bring yourself, a willingness to learn, and a positive attitude!
+      </div>
+      <div class = "question">
+        Can I attend with no prior hackathon experience?
+      </div>
+      <div class = "answer">
+        YES! Over 60% of our attendees last year were first-time hackers!        
+      </div>
+      <div class = "question">
+        Do I need to come with a team?
+      </div>
+      <div class = "answer">
+        You can come solo or with a team - whichever you like. If you already have a team (up to 5 people), you can register with them. If you don't have a team but would like one, we can match you up with one before the event, or you can form your own the morning of during breakfast and registration.
+      </div>
+      <div class = "question">
+        Which sponsors are attending?
+      </div>
+      <div class = "answer">
+        We have representatives from Scotiabank, Coinsquare, TechAlliance, Communitech, DMZ, Propel Entrepreneurship Centre, Ivey Msc, and more!
+      </div>
+      <div class = "question">
+        Is this event women-only?
+      </div>
+      <div class = "answer">
+        Yes! As we’re focused on creating a talent pipeline from minorities in tech, this event is specifically created as a place for newcomers to explore the tech industry in a fun, relaxing, and non-competitive way. If you're in high school, university, college, or graduate school and want to break into tech, you're 100% welcome here!
+      </div>
+      <div class = "question">
+        I'm not a girl/woman, can I still come?
+      </div>
+      <div class = "answer">
+        SheHacks is designed to be a inclusive space to support women who are interested in technology. If you identify as a woman, you're welcome to join us!
+      </div>
+      <div class = "question">
+        Why can’t men attend?
+      </div>
+      <div class = "answer">
+        The tech industry is still dominated by men, which unfortunately can make the environment a toxic and unwelcoming one for women. At the Women in Tech Society, we're simply bringing women up to speed to be equals, as women are still disadvantaged in the social and political spheres.
+      </div>
+      <div class = "question">
+        What is the cost?
+      </div>
+      <div class = "answer">
+        Absolutely FREE, due to our generous sponsors! Food and drink will be covered by us, and you'll also receive a swag bag full of amazing goodies.
+      </div>
+      <div class = "question">
+        Which schools are allowed to attend?
+      </div>
+      <div class = "answer">
+        We welcome participants from all over Canada, with a particular emphasis on Western University, Waterloo University, Laurier University, York University, and University of Toronto!
+      </div>
+       <div class = "question">
+        What do I need to bring?
+      </div>
+      <div class = "answer">
+        Your laptop, chargers, friends, and a desire to learn!
+      </div>
+    </div>
+    <div>
+      <img src =  "./assets/images/watermarked-9474.png" style = "max-width: 70%">
+    </div>
+    </div>
+
+
+    </div>
+   
+  		<div class="tab-pane fade" id="nav-events" role="tabpanel" aria-labelledby="nav-events-tab">
+        
+      </div>
+  		<div class="tab-pane fade" id="nav-women" role="tabpanel" aria-labelledby="nav-women-tab">
+        <div class="wrapper" style = "display:table;margin-top: 30px">
+            <div class = "row-wrapper" style = "display:table-row;text-align: left;">
+              <div style = "padding-left: 300px;">
+              <h1 style = "line-height: 40px; margin-left: -30px; background: #7690E8"> women in <br>technology</h1>
+              </div>
+            </div>
+            <div class = "row-wrapper" style = "display: table-row; padding-right:100px">
+              <div class="box" style = "display: table-cell;">
+              <img src="./assets/images/brain.png" style = "width: 180px; margin-top: 50px; margin-left: 150px; text-align: left">
+              </div>
+              <div id="womenintech" class="box" style = "display:table-cell; margin-top: 100px;text-align: left;font-size: 25px; padding-right:300px; margin-left: 150px;">
+                <div style = "background-image: linear-gradient(to right,transparent,#7690E8)">
+                <i>53% of tech companies have no female executives, despite a 35% better return on equity experienced by companies with more representation of women in management. </i></div>
+              </div>
+            </div>
+            
+              
+        </div>
+        <div class = "wrapper" style = "margin-top: 50px; text-align: center">
+        <div style = "width : 100%; text-align: center;">
+          <h1>women make up</h1>
+          <img src = "./assets/images/piecharts.png" style = "max-width: 70%; margin-top: 70px;">
+          <div class = "container" style = "margin-top: 30px">
+            <div class = "row">
+              <div class = "col-sm" style = "padding-left: 40px">
+                <p> of an average tech company's executive team</p>
+              </div>
+              <div class = "col-sm">
+                <p> director roles</p>
+              </div>
+              <div class = "col-sm">
+                <p> of partners in Canadian venture capital firms</p>
+              </div>
+              <div class = "col-sm" style = "padding-right:40px">
+                <p> Canadian tech companies have a solo female founder and a solo female CEO</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div style = "text-align: center; margin-top: 100px;">
+          <p style = "padding: 60px;margin:0px; font-size: 25px; padding-right:350px; padding-left: 350px; text-align: left"><i>We believe that leaders in tech, education, government, and the community can work together to commit to changing the status quo.</i></p>
+          <img src = "./assets/images/heart.png" style = "width: 50px">
+          <p style = "padding: 60px;margin:0px; font-size: 25px; padding-right:350px; padding-left: 350px; text-align: left"><i>Building an inclusive tech community, reflective of the diversity of the population is imperative for higher levels of productivity and innovation in all fields. We strive to encourage, challenge, and equip women* to carry this vision forward. Our community taps into promising female talent and enables women* to build practical experience, skills, and industry connections.</i></p>
+          <img src = "./assets/images/blue_logo.png" style = "max-width: 25%">
+        </div>
+      </div>
+      </div>
+
+
+
+
+
+
+
+
+
+
+
+  		<div class="tab-pane fade" id="nav-subscribe" role="tabpanel" aria-labelledby="nav-subscribe-tab">
+           <div class="wrapper" style = "display:table;margin-top: 30px">
+            <div class = "row-wrapper" style = "display:table-row;text-align: left;">
+              <div style = "padding-left: 300px;padding-right: 300px">
+              <h2 style = "line-height: 40px;"> <i>We love keeping our community updated!  Leave us with your email and we promise to send the most useful tips, updates, and information!</i></h2>
+            </div>
+          </div>
+        </div>
+            <div class = "row-wrapper" style = "display:block;text-align: center; margin-top: 40px">
+              <!-- Begin Mailchimp Signup Form -->
+<link href="//cdn-images.mailchimp.com/embedcode/classic-10_7.css" rel="stylesheet" type="text/css">
+<style type="text/css">
+  input {
+    border: 0;
+    outline: 0;
+    background: transparent;
+    border-bottom: 1px solid white;
+
+  }
+
+  #mc_embed_signup {
+    font-size: 30px;
+    color: white !important;
+    font-family:'Asimov-Dist';
+  }
+
+  .button {
+    color: white !important;
+  }
+
+  ::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+    color: #FABC3C;
+    opacity: 0.6; /* Firefox */
+}
+
+</style>
+<div id="mc_embed_signup">
+<form action="https://uwo.us14.list-manage.com/subscribe/post?u=f8cd42976d13df11d23feb91a&amp;id=02833a26bb" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
+    <div id="mc_embed_signup_scroll">
+  <label style = "background: #FABC3C; color:transparent;padding:0px;line-height: 20px; margin-top: 0px"> WITS</label>
+<div class="indicates-required" style = "font-size:10px; margin-top: 40px"><span class="asterisk">*</span> indicates required</div>
+<div class="mc-field-group" style = "text-align: center">
+  <!-- <label for="mce-EMAIL">Email Address  <span class="asterisk">*</span>
+</label> -->
+  <input type="email" value="" placeholder = "email address" name="EMAIL" onfocus="this.placeholder = ''"
+    onblur="this.placeholder = 'email address'"class="required email" id="mce-EMAIL">
+</div>
+<div class="mc-field-group">
+  <!-- <label for="mce-FNAME">First Name  </label> -->
+  <input type="text" value="" name="FNAME" placeholder = "first name"  onfocus="this.placeholder = ''"
+    onblur="this.placeholder = 'first name'" class="" id="mce-FNAME">
+</div>
+<div class="mc-field-group">
+  <!-- <label for="mce-LNAME">Last Name </label> -->
+  <input type="text" value="" name="LNAME" placeholder = "last name" onfocus="this.placeholder = ''"
+    onblur="this.placeholder = 'last name'"class="" id="mce-LNAME">
+</div>
+  <div id="mce-responses" class="clear">
+    <div class="response" id="mce-error-response" style="display:none"></div>
+    <div class="response" id="mce-success-response" style="display:none"></div>
+  </div>    <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
+    <div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text" name="b_f8cd42976d13df11d23feb91a_02833a26bb" tabindex="-1" value=""></div>
+    <div class="clear"><input type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="button"></div>
+    </div>
+</form>
+</div>
+<script type='text/javascript' src='//s3.amazonaws.com/downloads.mailchimp.com/js/mc-validate.js'></script><script type='text/javascript'>(function($) {window.fnames = new Array(); window.ftypes = new Array();fnames[0]='EMAIL';ftypes[0]='email';fnames[1]='FNAME';ftypes[1]='text';fnames[2]='LNAME';ftypes[2]='text';fnames[3]='ADDRESS';ftypes[3]='address';fnames[4]='PHONE';ftypes[4]='phone';}(jQuery));var $mcj = jQuery.noConflict(true);</script>
+<!--End mc_embed_signup-->
+            </div>
+      
+
+      </div>
+	</div>
+</div>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script type="text/javascript" src="./slick/slick.min.js"></script>
+
+  <script type="text/javascript">
+      $(document).ready(function(){
+          $('.gallery').slick({
+            // infinite: true,
+            // slidesToShow:1,
+            // dots:true,
+            // arrows:true
+          });
+        });  
+      </script>
+
+</body>
+</html>
