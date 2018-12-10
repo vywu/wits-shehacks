@@ -125,6 +125,17 @@ body {
   
 }
 
+.pre-reg {
+  position: relative;
+  text-align: center;
+}
+
+.pre-reg-text {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
 /*Side bar for images*/
 .sidebar {
   width:300px !important;
@@ -145,6 +156,11 @@ body {
   box-shadow: 10px 20px #FABC3C;
 
 }
+.button:hover {
+  text-decoration: underline;
+  text-decoration-color: white;
+}
+
 .question {
   margin-top: 50px;
   padding-left: 200px;
