@@ -24,9 +24,18 @@ a:hover {
   font-family: 'Gotham-Book';
   src:url(../assets/fonts/Gotham/Gotham-Book.ttf);
 }
+
+@font-face{
+  font-family: 'Acre-Semibold';
+  src:url(../assets/fonts/Acre/Acre-Semibold.ttf);
+}
 @font-face{
   font-family: 'Acre-Regular';
   src:url(../assets/fonts/Acre/Acre-Regular.ttf);
+}
+@font-face{
+  font-family: 'Acre-Light';
+  src:url(../assets/fonts/Acre/Acre-Light.ttf);
 }
 @font-face{
   font-family: 'Asimov-Regular';
@@ -43,7 +52,7 @@ a:hover {
 .nav-link:focus {
   background: transparent !important;
   color:white !important;
-  font-family:'Asimov-Dist';
+  font-family:'Acre-Light';
   border: 0px !important;
 /*  border-bottom: 1px;*/
   font-size: 20px;
@@ -76,6 +85,9 @@ a:hover {
   justify-content: center;
 }
 
+.strong {
+  font-family: "Acre-Semibold";
+}
 /*
  * Base structure
  */
@@ -115,7 +127,7 @@ body {
   width:100%;
   text-align:center;
   color:white;
-  font-family: 'Asimov-Regular' !important;
+  font-family: 'Acre-Light' !important;
 }
 
 /*Mission statement image*/)
