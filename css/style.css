@@ -137,6 +137,9 @@ body {
   
 }
 
+.faq {
+  padding: 15%;
+}
 .pre-reg {
   position: relative;
   text-align: center;
@@ -150,7 +153,7 @@ body {
 }
 /*Side bar for images*/
 .sidebar {
-  width:300px !important;
+  width:35% !important;
 }
 
 .headshots {
