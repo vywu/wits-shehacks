@@ -177,20 +177,20 @@ body {
 }
 
 .question {
-  margin-top: 50px;
+  margin-top: 2.6vw;
   padding-left: 200px;
   padding-right: 200px;
   text-align: left;
-  font-size: 25px;
+  font-size: 1.3vw;
   color:#CE6767;
 }
 
 .answer {
-  margin-top: 30px;
+  margin-top: 2.3px;
   padding-left:200px;
   padding-right:200px;
   text-align: right;
-  font-size: 20px;
+  font-size: 1.2vw;
   color:#292E4F;
 }
 /*
