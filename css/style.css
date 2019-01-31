@@ -87,6 +87,7 @@ a:hover {
 
 .strong {
   font-family: "Acre-Semibold";
+  display: inline;
 }
 /*
  * Base structure
@@ -184,6 +185,7 @@ body {
 }
 
 .question {
+  font-family: "Acre-Semibold";
   margin-top: 2.6vw;
   padding-left: 200px;
   padding-right: 200px;
