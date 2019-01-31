@@ -89,6 +89,10 @@ a:hover {
   font-family: "Acre-Semibold";
   display: inline;
 }
+
+.strong_title {
+  font-family: "Acre-Semibold";
+}
 /*
  * Base structure
  */
