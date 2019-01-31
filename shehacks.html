@@ -15,31 +15,31 @@
 <!------ Include the above in your HEAD tag ---------->
 <body style = "background:#FFD7C6;">
 	<div id="fullpage">
-		<div class="section" id = "shehacks_landing" style = "text-align: center">
+		<div class="section" id = "shehacks_landing" style = "text-align: center;">
 			<div class="masthead clearfix" style = "margin-top:-2%; margin-bottom: 2%">
 				<a href=""><img class="masthead-brand" src="./assets/images/shehacks_logo_white.png" style="margin-top: 0px;width: 200px"></a>
 				<nav style="margin-top:30px; margin-right: 30px;" class="nav masthead-nav justify-content-end navbar-fixed-top">
 			        <div class="nav nav-tabs justify-content-end" style="border-bottom: 0px" id="nav-tab" role="tablist" >
 				        <a class="nav-item nav-link active" href = "wits.html" target = "_self">About WITS</a>
-				        <a class="nav-item nav-link" href = "./shehacks.html" target = "_self")">SheHacks</a>
+				        <a class="nav-item nav-link" href = "./shehacks.html" target = "_self">SheHacks</a>
 				        <a class="nav-item nav-link" href = "#">Events</a>
 				        <a class="nav-item nav-link" href = "womenintech.html" target = "_self">Women@Tech</a>
 				        <a class="nav-item nav-link" href = "subscribe.html" target = "_self">Stay in touch</a>
 			        </div>
 			    </nav>
 	    	</div>
-			<img src="./assets/images/shehacks_main.jpg" style="width : 100%;">
+<!-- 			<img src="./assets/images/shehacks_main.jpg" style="width : 100%;"> -->
 		</div>
-		<div class="section wrapper">
+		<div class="section wrapper" id = "shehacks_f">
 <!--       <div id="whatisshehacks" class="align-top" style = "display:table-cell; padding: 30px;margin:30px; margin-top:-100px; text-align: left;" class="box"> -->
       <div class = "row-wrapper" style = "display:table-row;">
         <div class="box sidebar align-top" style = "display: table-cell;">
-          <img src="./assets/images/logo_breakdown.png" style = "width: 80%; margin-top: 0px; margin-left: 40%; margin-right: 10%;">
+          <img src="./assets/images/girl.png" style = "width: 80%; margin-top: 0px; margin-left: 40%; margin-right: 10%;">
         </div>
-        <div class = "box" style = "margin-left: 15%; margin-right: 30%; text-align: left">
-          <p style = "font-size: 3.5vw; color:#CE6767; text-align: left; padding-left:60px; padding-right: 20px; letter-spacing: 0px; line-height:60px ">what is SheHacks?</p>
-          <p style = "font-size: 1.3vw; color:#292E4F; text-align: left; padding-left:60px; padding-right: 20px; line-height:30px; margin-top: 30px "> SheHacks is the <label class = "strong">largest All-Women's Hackathon</label> in Southwest Ontario, hosted by the Women in Technology Society at Western University. Our focus is <label class = "strong">preparing women to thrive </label> the technology industry regardless of: gender identity, background, major, or experience.</p>
-          <p style = "font-size: 1.3vw; color:#292E4F; line-height:30px; padding-left:60px; margin-top: 30px "> 
+        <div class = "box" id = "shehacks_f_main" style = "margin-left: 15%; margin-right: 30%; text-align: left; padding: 4vw;">
+          <p style = "font-size: 3.5vw; color:#ffffff; text-align: left; padding-left:60px; padding-right: 20px; letter-spacing: 0px; line-height:60px ">what is SheHacks?</p>
+          <p style = "font-size: 1.3vw; color:#ffffff; text-align: left; padding-left:60px; padding-right: 20px; line-height:30px; margin-top: 30px "> SheHacks is the <label class = "strong">largest All-Women's Hackathon</label> in Southwest Ontario, hosted by the Women in Technology Society at Western University. Our focus is <label class = "strong">preparing women to thrive </label> the technology industry regardless of: gender identity, background, major, or experience.</p>
+          <p style = "font-size: 1.3vw; color:#ffffff; line-height:30px; padding-left:60px; margin-top: 30px "> 
           SheHacks makes technology accessible for all, attracting hundreds of diverse attendees and corporate leaders at the forefront of progress. More than just technical skills, our teams leave with genuine industry connections, a fortified sense of community, and inspiration to lead.</p>
         </div> 
       </div>
@@ -65,13 +65,13 @@
       <div  style = "display:table; margin-top: 5%; text-align: center; table-layout: fixed;  margin-left: 15%; margin-right: 15%;">
       <div class = "row-wrapper" style = "display:table-row; text-align: center;">
         <div style = "display: table-cell;">
-          <img src = "./assets/images/tolu.png" style = "width:15vw">
+          <img class = "t_pics" src = "./assets/images/tolu.png" style = "width:15vw">
         </div>
         <div style = "display: table-cell;">
-          <img src = "./assets/images/iris.png" style = "width:15vw">
+          <img class = "t_pics" src = "./assets/images/iris.png" style = "width:15vw">
         </div>
          <div style = "display: table-cell;">
-          <img src = "./assets/images/annie.png" style = "width:15vw">
+          <img class = "t_pics" src = "./assets/images/annie.png" style = "width:15vw">
         </div>
       </div>
        <div class = "row-wrapper" style = "display:table-row;">
@@ -99,12 +99,27 @@
     </div>
 
     <div class="section wrapper">
-      <div class="gallery" id = "photo_gallery" style = "height:100%; text-align: center;">
-        <img src = "./assets/images/shehacks1.jpg" style = "height: 70%">
+<!--       <div class="gallery" id = "photo_gallery" style = "text-align: center;">
+        <img src = "./assets/images/shehacks1.jpg" style = "width: 10%">
         <img src = "./assets/images/shehacks2.jpg" style = "height: 70%">
         <img src = "./assets/images/shehacks3.jpg" style = "height: 70%">
         <img src = "./assets/images/shehacks4.jpg" style = "height: 70%">
         <img src = "./assets/images/shehacks5.jpg" style = "height: 70%">
+      </div> -->
+      <div class = "slide" >
+         <img src = "./assets/images/shehacks1.jpg" style = "height: 100%">
+      </div>
+      <div class = "slide" >
+         <img src = "./assets/images/shehacks2.jpg" style = "height: 100%">
+      </div>
+      <div class = "slide" >
+         <img src = "./assets/images/shehacks3.jpg" style = "height: 100%">
+      </div>
+      <div class = "slide" >
+         <img src = "./assets/images/shehacks4.jpg" style = "height: 100%">
+      </div>
+      <div class = "slide" >
+         <img src = "./assets/images/shehacks5.jpg" style = "height: 100%">
       </div>
     </div>
 
@@ -218,7 +233,7 @@
   <script type="text/javascript" src="./fullpage.js"></script>
   <script type="text/javascript">
     var myFullpage = new fullpage('#fullpage', {
-        sectionsColor: ['#111450', '#ffffff', '#7BAABE', 'whitesmoke', '#ccddff'],
+        sectionsColor: ['#111450', '#111450', '#8f96af', 'e18e8c', '#111450'],
         anchors: ['main', 'shehacks', 'testimonies', 'gallery', 'Q&A'],
         menu: '#menu',
         lazyLoad: true
