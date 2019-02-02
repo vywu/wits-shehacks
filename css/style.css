@@ -143,7 +143,7 @@ body {
 }
 
 .faq {
-  padding: 15%;
+  padding: 3%;
 }
 .pre-reg {
   position: relative;
@@ -204,7 +204,7 @@ body {
   padding-right:200px;
   text-align: right;
   font-size: 1.2vw;
-  color: white;
+  color: #CE6767;
 }
 
 #shehacks_landing {
@@ -248,9 +248,10 @@ body {
   background-size:100% 100%;
 }
 
-#shehacks_fo_main {
-  background-color: #ffffff;
-  border-radius: 50%;
+.shehacks_fo_main {
+  margin-right: 15%; margin-left: 15%;
+  background-color: rgb(234,231,220,0.8);
+  border-radius: 70%;
 }
 /*
  * Header
