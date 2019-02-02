@@ -178,8 +178,8 @@ body {
 }
 
 .t_pics {
- /* border-radius: 50%;
-  box-shadow: 10px 20px #111450;*/
+  border-radius: 50%;
+  box-shadow: 10px 20px #111450;
 
 }
 
@@ -208,17 +208,48 @@ body {
 }
 
 #shehacks_landing {
-  background-image: url("../assets/images/shehacks_cover.jpg");
+  background-image: url("../assets/images/shehacks_cover.png");
   background-size:100% 100%;
 }
 
 #shehacks_f {
-  background-image: url("../assets/images/stripe2.png");
+  background-image: url("../assets/images/shehacks_01.png");
   background-size:100% 100%;
 }
 
 #shehacks_f_main {
-  background-color: #011450;
+  background-color: rgb(17,20,80,0.7);
+  border-radius: 30%;
+}
+
+#shehacks_s {
+  background-image: url("../assets/images/shehacks_02.png");
+  background-size:100% 100%;
+}
+
+#shehacks_s_main {
+  background-color: rgb(143,150,175,0.7)
+;
+  border-radius: 30%;
+}
+
+#shehacks_t {
+  background-image: url("../assets/images/shehacks_03.png");
+  background-size:100% 100%;
+}
+
+#shehacks_t_main {
+  background-color: #ffffff;
+  border-radius: 50%;
+}
+
+#shehacks_fo {
+  background-image: url("../assets/images/shehacks_04.png");
+  background-size:100% 100%;
+}
+
+#shehacks_fo_main {
+  background-color: #ffffff;
   border-radius: 50%;
 }
 /*
