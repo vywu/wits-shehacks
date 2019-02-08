@@ -143,7 +143,7 @@ body {
 }
 
 .faq {
-  padding: 3%;
+  /*padding: 3%;*/
 }
 .pre-reg {
   position: relative;
@@ -251,7 +251,27 @@ body {
 .shehacks_fo_main {
   margin-right: 15%; margin-left: 15%;
   background-color: rgb(234,231,220,0.8);
-  border-radius: 70%;
+  border-radius: 20%;
+}
+
+#shehacks_fi_main {
+   background-color: rgb(255,255,255,0.8);
+  border-radius: 10%;
+}
+
+
+#shehacks_fi {
+  background-image: url("../assets/images/shehacks_05.png");
+  background-size:100% 100%;
+}
+
+.spons_b {
+  margin: 1vw;
+}
+
+.spons_s {
+  margin-left: 0.8vw;
+  margin-right: 0.8vw;
 }
 /*
  * Header
